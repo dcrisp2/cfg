@@ -85,7 +85,7 @@ autocmd BufWinEnter *.* silent loadview"
 
 " Call the .vimrc.plug file
 if filereadable(expand("~/.vimrc.plug"))
-  source ~/vimplug-plugins/.vimrc.plug
+  source ~/.vimrc.plug
 endif
 
 " The following two lines solve the BCE issue described here:
